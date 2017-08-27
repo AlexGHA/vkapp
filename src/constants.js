@@ -1,0 +1,5 @@
+export const FAVORITE_POSTS = "FAVORITE_POSTS";
+export const POSTS = "POSTS";
+export const POSTS_LOADED = "POSTS_LOADED";
+export const POSTS_LOADING = "POSTS_LOADING";
+export const POSTS_LOADING_ERROR = "POSTS_LOADING_ERROR";

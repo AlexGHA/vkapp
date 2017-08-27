@@ -1,0 +1,107 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 160%;
+  color: #555;
+  background-color: #edeef0;
+  padding: 0;
+  margin: 0; }
+
+.content {
+  max-width: 600px;
+  padding-top: 42px;
+  padding-bottom: 15px;
+  margin: 0 auto; }
+  .content p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px 0; }
+
+.button {
+  text-align: center;
+  cursor: pointer; }
+
+.navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #5e81a8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+  .navigation > div {
+    display: table;
+    width: 100%;
+    max-width: 600px;
+    height: 42px;
+    margin: 0 auto; }
+    .navigation > div > div {
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      text-align: center; }
+  .navigation .button {
+    display: inline;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff; }
+  .navigation .check-button-checked {
+    font-weight: bold; }
+
+.post {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d7d8db;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 25px;
+  margin: 15px 0 0 0; }
+  .post .add-to-favorites-button {
+    position: absolute;
+    z-index: 10;
+    right: 8px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+    background: url(/assets/images/star.png) -16px 0 no-repeat;
+    background-size: 32px 16px; }
+    .post .add-to-favorites-button.check-button-checked {
+      background-position: 0 0; }
+  .post picture {
+    position: relative;
+    display: block;
+    min-height: 64px;
+    font-size: 0;
+    text-align: center;
+    padding: 10px 0; }
+    .post picture .progress-bar {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -32px;
+      margin-top: -32px; }
+    .post picture .image {
+      width: 100%;
+      max-width: 60%;
+      transition: opacity 1s; }
+      .post picture .image.hidden {
+        opacity: 0; }
+      .post picture .image.visible {
+        opacity: 1; }
+  .post .content {
+    padding: 10px 0; }
+
+.progress-bar {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto; }
+  .progress-bar img {
+    display: block;
+    width: 64px;
+    height: 64px; }
+
+/*# sourceMappingURL=index.css.map */
