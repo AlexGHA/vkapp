@@ -6,8 +6,6 @@ npm-build.bat
 
 # dependencies
 /node_modules
-package.json
-.eslintrc.js
 
 # testing
 /coverage
